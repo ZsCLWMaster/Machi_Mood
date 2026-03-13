@@ -31,7 +31,7 @@
       background: var(--ivory);
       color: var(--text);
       font-family: 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif;
-      font-size: 50px;
+      font-size: 16px;
       font-weight: 400;
       overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
@@ -876,7 +876,6 @@
 </head>
 <body>
 
-  <!-- ── NAVIGATION ── -->
   <nav id="navbar">
     <a href="#" class="nav-logo">machi<span>_mood</span></a>
     <ul class="nav-links">
@@ -887,7 +886,6 @@
     </ul>
   </nav>
 
-  <!-- ── HERO ── -->
   <section class="hero">
     <div class="hero-left">
       <p class="hero-eyebrow">直送台灣 · 韓系質感</p>
@@ -910,55 +908,38 @@
       <div class="hero-bg-shape"></div>
       <div class="hero-image-container">
         <div class="hero-fashion-art">
-          <!-- Elegant fashion illustration SVG -->
           <svg viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <!-- Body silhouette - elegant figure -->
             <ellipse cx="160" cy="80" rx="28" ry="32" fill="#e8d8c8" opacity="0.9"/>
-            <!-- Hair -->
             <ellipse cx="160" cy="68" rx="30" ry="22" fill="#3d2e29" opacity="0.85"/>
             <path d="M130 70 Q118 100 122 130" stroke="#3d2e29" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85"/>
             <path d="M190 70 Q202 100 198 130" stroke="#3d2e29" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.85"/>
-            <!-- Neck -->
             <rect x="153" y="108" width="14" height="18" rx="4" fill="#e8d8c8" opacity="0.9"/>
-            <!-- Elegant dress top - off shoulder -->
             <path d="M110 130 Q130 118 160 122 Q190 118 210 130 L218 200 Q190 215 160 218 Q130 215 102 200 Z" fill="#f2e4dc"/>
-            <!-- Off shoulder detail -->
             <path d="M108 132 Q118 125 135 128" stroke="#d4a49a" stroke-width="2" fill="none"/>
             <path d="M212 132 Q202 125 185 128" stroke="#d4a49a" stroke-width="2" fill="none"/>
-            <!-- Ruffle/bow detail at waist -->
             <path d="M140 198 Q160 204 180 198 Q170 210 160 214 Q150 210 140 198Z" fill="#d4a49a" opacity="0.7"/>
-            <!-- Flowy skirt -->
             <path d="M102 200 Q80 260 75 340 Q95 360 160 365 Q225 360 245 340 Q240 260 218 200 Q190 215 160 218 Q130 215 102 200Z" fill="#f2e4dc"/>
-            <!-- Skirt layers / fabric folds -->
             <path d="M100 230 Q90 270 85 320 Q105 335 130 330" stroke="#e8d8c8" stroke-width="1.5" fill="none" opacity="0.6"/>
             <path d="M220 230 Q230 270 215 320 Q195 335 185 330" stroke="#e8d8c8" stroke-width="1.5" fill="none" opacity="0.6"/>
             <path d="M130 218 Q120 260 115 330" stroke="#d4a49a" stroke-width="1" fill="none" opacity="0.4"/>
             <path d="M190 218 Q200 260 205 330" stroke="#d4a49a" stroke-width="1" fill="none" opacity="0.4"/>
-            <!-- Legs & feet -->
             <path d="M135 362 Q130 400 128 450" stroke="#e8d8c8" stroke-width="10" stroke-linecap="round" fill="none"/>
             <path d="M185 362 Q190 400 192 450" stroke="#e8d8c8" stroke-width="10" stroke-linecap="round" fill="none"/>
-            <!-- Delicate shoes -->
             <ellipse cx="127" cy="452" rx="16" ry="6" fill="#b07a72"/>
             <ellipse cx="193" cy="452" rx="16" ry="6" fill="#b07a72"/>
-            <!-- Heels -->
             <line x1="138" y1="452" x2="140" y2="464" stroke="#b07a72" stroke-width="3" stroke-linecap="round"/>
             <line x1="204" y1="452" x2="206" y2="464" stroke="#b07a72" stroke-width="3" stroke-linecap="round"/>
-            <!-- Arms - graceful pose -->
             <path d="M110 140 Q85 170 82 200 Q88 205 96 200 Q100 175 118 155Z" fill="#e8d8c8" opacity="0.9"/>
             <path d="M210 140 Q235 170 238 200 Q232 205 224 200 Q220 175 202 155Z" fill="#e8d8c8" opacity="0.9"/>
-            <!-- Handbag -->
             <rect x="230" y="195" width="34" height="28" rx="4" fill="#c9a87c" opacity="0.85"/>
             <path d="M235 195 Q237 182 248 180 Q259 182 261 195" stroke="#c9a87c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
             <line x1="230" y1="209" x2="264" y2="209" stroke="#b08050" stroke-width="1" opacity="0.5"/>
-            <!-- Gold clasp -->
             <circle cx="247" cy="209" r="3" fill="#e8d5b0"/>
-            <!-- Decorative floating petals -->
             <ellipse cx="68" cy="160" rx="6" ry="10" fill="#d4a49a" opacity="0.3" transform="rotate(-30 68 160)"/>
             <ellipse cx="58" cy="185" rx="5" ry="8" fill="#d4a49a" opacity="0.2" transform="rotate(20 58 185)"/>
             <ellipse cx="260" cy="150" rx="5" ry="9" fill="#d4a49a" opacity="0.3" transform="rotate(15 260 150)"/>
             <ellipse cx="272" cy="175" rx="4" ry="7" fill="#d4a49a" opacity="0.2" transform="rotate(-20 272 175)"/>
             <ellipse cx="265" cy="250" rx="4" ry="7" fill="#d4a49a" opacity="0.15" transform="rotate(10 265 250)"/>
-            <!-- Small flowers -->
             <circle cx="70" cy="220" r="4" fill="#f2e4dc" opacity="0.5"/>
             <circle cx="68" cy="220" r="1.5" fill="#d4a49a" opacity="0.6"/>
             <circle cx="258" cy="280" r="3.5" fill="#f2e4dc" opacity="0.4"/>
@@ -975,7 +956,6 @@
     </div>
   </section>
 
-  <!-- ── MARQUEE ── -->
   <div class="marquee-strip">
     <div class="marquee-inner">
       <span class="marquee-item">杭州直送</span><span class="marquee-dot">✦</span>
@@ -986,7 +966,6 @@
       <span class="marquee-item">限量設計款</span><span class="marquee-dot">✦</span>
       <span class="marquee-item">精選檔口</span><span class="marquee-dot">✦</span>
       <span class="marquee-item">每週上新</span><span class="marquee-dot">✦</span>
-      <!-- duplicate for seamless loop -->
       <span class="marquee-item">杭州直送</span><span class="marquee-dot">✦</span>
       <span class="marquee-item">廣州嚴選</span><span class="marquee-dot">✦</span>
       <span class="marquee-item">韓系質感</span><span class="marquee-dot">✦</span>
@@ -998,7 +977,6 @@
     </div>
   </div>
 
-  <!-- ── ABOUT ── -->
   <section class="about-strip">
     <div class="reveal">
       <p class="about-label"><span class="deco-line"></span>關於我們</p>
@@ -1030,7 +1008,6 @@
     </div>
   </section>
 
-  <!-- ── PRODUCTS ── -->
   <section class="products-section" id="products">
     <div class="section-header">
       <div class="reveal">
@@ -1041,7 +1018,6 @@
     </div>
 
     <div class="product-grid">
-      <!-- Product 1 -->
       <div class="product-card reveal reveal-delay-1">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2603051064221959.jpg" alt="蝴蝶結假兩件上衣" loading="lazy"/>
@@ -1055,7 +1031,6 @@
         <p class="product-origin">廣州 · 精選款</p>
       </div>
 
-      <!-- Product 2 -->
       <div class="product-card reveal reveal-delay-2">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2603031060561448.jpg" alt="兩件式針織衫" loading="lazy"/>
@@ -1069,7 +1044,6 @@
         <p class="product-origin">杭州 · Nano 家</p>
       </div>
 
-      <!-- Product 3 -->
       <div class="product-card reveal reveal-delay-3">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2603031060558256.jpg" alt="春天套裝" loading="lazy"/>
@@ -1083,7 +1057,6 @@
         <p class="product-origin">廣州 · 精選款</p>
       </div>
 
-      <!-- Product 4 -->
       <div class="product-card reveal reveal-delay-4">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2603031060553982.jpg" alt="露思同款露肩上衣" loading="lazy"/>
@@ -1096,7 +1069,6 @@
         <p class="product-origin">杭州 · 精選款</p>
       </div>
 
-      <!-- Product 5 -->
       <div class="product-card reveal reveal-delay-1">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2603031060552449.jpg" alt="露思同款吊帶裙" loading="lazy"/>
@@ -1109,7 +1081,6 @@
         <p class="product-origin">廣州 · 精選款</p>
       </div>
 
-      <!-- Product 6 -->
       <div class="product-card reveal reveal-delay-2">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2602231049846875.jpg" alt="白色皮衣" loading="lazy"/>
@@ -1123,7 +1094,6 @@
         <p class="product-origin">杭州 · i miss 家</p>
       </div>
 
-      <!-- Product 7 -->
       <div class="product-card reveal reveal-delay-3">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2602231049850182.jpg" alt="天絲棉彎刀褲" loading="lazy"/>
@@ -1136,7 +1106,6 @@
         <p class="product-origin">廣州 · 檸檬家</p>
       </div>
 
-      <!-- Product 8 -->
       <div class="product-card reveal reveal-delay-4">
         <div class="product-image-wrap">
           <img src="https://myship.7-11.com.tw/i/cgdm/GM2602234503928/2602231049814791.jpg" alt="爆款彎刀牛仔褲" loading="lazy"/>
@@ -1152,7 +1121,6 @@
     </div>
   </section>
 
-  <!-- ── HOW IT WORKS ── -->
   <section class="how-section" id="how">
     <div class="reveal">
       <p class="section-label"><span class="deco-line" style="background:var(--rose)"></span>購物流程</p>
@@ -1186,7 +1154,6 @@
     </div>
   </section>
 
-  <!-- ── SOURCING BANNER ── -->
   <section class="sourcing-banner" id="sourcing">
     <div class="sourcing-content reveal">
       <p class="section-label"><span class="deco-line"></span>品質承諾</p>
@@ -1227,7 +1194,6 @@
     </div>
   </section>
 
-  <!-- ── CONTACT ── -->
   <section class="contact-section" id="contact">
     <span class="section-label reveal"><span class="deco-line"></span>找到我們</span>
     <h2 class="section-title reveal">有任何問題<br><em>隨時聯絡</em></h2>
@@ -1258,7 +1224,6 @@
     </div>
   </section>
 
-  <!-- ── FOOTER ── -->
   <footer>
     <div class="footer-logo">machi<span>_mood</span> 🌸</div>
     <p class="footer-copy">© 2026 Machi_mood · 韓系質感女裝 · 台灣</p>
@@ -1268,16 +1233,15 @@
     </div>
   </footer>
 
-  <!-- ── DEVELOPER PANEL ── -->
   <div id="dev-toggle" title="開發者編輯面板">⚙️</div>
 
   <div id="dev-panel">
     <div id="dev-header">
       <span>🛠 編輯面板 <span style="font-size:0.65rem;opacity:0.6;">machi_mood</span></span>
+      <button id="dev-save" onclick="exportHTML()" style="background:var(--deep-rose); color:white; border:none; padding:4px 10px; border-radius:4px; cursor:pointer; font-size:0.75rem; margin-right: 12px; font-family: 'Noto Sans TC', sans-serif;">💾 下載更新</button>
       <button id="dev-close" onclick="togglePanel()">✕</button>
     </div>
 
-    <!-- TABS -->
     <div id="dev-tabs">
       <button class="dev-tab active" onclick="showTab('tab-marquee')">跑馬燈</button>
       <button class="dev-tab" onclick="showTab('tab-hero')">Hero</button>
@@ -1288,7 +1252,6 @@
 
     <div id="dev-body">
 
-      <!-- ── TAB: MARQUEE ── -->
       <div class="dev-tab-content active" id="tab-marquee">
         <p class="dev-section-title">跑馬燈文字</p>
         <p class="dev-hint">每行一個項目，空行會被忽略</p>
@@ -1309,7 +1272,6 @@
         </div>
       </div>
 
-      <!-- ── TAB: HERO ── -->
       <div class="dev-tab-content" id="tab-hero">
         <p class="dev-section-title">頂部小標</p>
         <input type="text" class="dev-input" id="hero-eyebrow" value="直送台灣 · 韓系質感" oninput="liveEdit('hero-eyebrow-el', this.value)">
@@ -1329,7 +1291,6 @@
         <input type="text" class="dev-input" id="hero-btn2" value="追蹤 Instagram" oninput="liveEdit('hero-btn2-el', this.value)">
       </div>
 
-      <!-- ── TAB: PRODUCTS ── -->
       <div class="dev-tab-content" id="tab-products">
         <p class="dev-section-title">商品卡片編輯</p>
         <p class="dev-hint">選擇要編輯的商品</p>
@@ -1362,7 +1323,6 @@
         <button class="dev-btn" onclick="applyProduct()">✓ 套用商品</button>
       </div>
 
-      <!-- ── TAB: TEXT ── -->
       <div class="dev-tab-content" id="tab-text">
         <p class="dev-section-title">關於我們 — 標題</p>
         <input type="text" class="dev-input" id="about-headline" value="不只是穿搭是一種心情" oninput="applyAboutHeadline(this.value)">
@@ -1380,7 +1340,6 @@
         <textarea class="dev-input" id="contact-lead" rows="2" oninput="liveEdit('contact-lead-el', this.value)">無論是詢問尺寸、確認現貨、還是想加入我們的 LINE 獨家社群，歡迎透過以下任何管道找到我們 🌸</textarea>
       </div>
 
-      <!-- ── TAB: STYLE ── -->
       <div class="dev-tab-content" id="tab-style">
         <p class="dev-section-title">主色調</p>
         <div class="dev-color-row">
@@ -1423,10 +1382,7 @@
         </div>
       </div>
 
-    </div><!-- /dev-body -->
-  </div><!-- /dev-panel -->
-
-  <style>
+    </div></div><style>
     /* ── DEV TOGGLE BUTTON ── */
     #dev-toggle {
       position: fixed;
@@ -1763,6 +1719,37 @@
         el.style.lineHeight = lh;
       });
     }
+    
+    // ── EXPORT HTML FUNCTION ──
+    function exportHTML() {
+      // 1. 同步所有面板中輸入的值，這樣下載的 HTML 才會保留你打的字
+      document.querySelectorAll('.dev-input').forEach(input => {
+        if (input.tagName === 'TEXTAREA') {
+          input.textContent = input.value;
+        } else {
+          input.setAttribute('value', input.value);
+        }
+      });
+
+      // 2. 複製整份網頁內容
+      const clone = document.documentElement.cloneNode(true);
+
+      // 3. 關閉複製版本中的控制面板（確保更新到線上時，預設是關閉狀態）
+      const panel = clone.querySelector('#dev-panel');
+      if (panel) panel.classList.remove('open');
+
+      // 4. 打包成 HTML 並觸發下載
+      const htmlContent = "<!DOCTYPE html>\n" + clone.outerHTML;
+      const blob = new Blob([htmlContent], { type: "text/html;charset=utf-8" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "index.html";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+
+      alert('✅ 下載成功！請將這個新的 index.html 檔案拖曳到你的 GitHub 中覆蓋舊檔，Vercel 就會自動更新網站。');
+    }
 
     // ── INIT: Add IDs to editable text targets
     window.addEventListener('DOMContentLoaded', () => {
@@ -1790,5 +1777,5 @@
       loadProduct();
     });
   </script>
-
-
+</body>
+</html>
